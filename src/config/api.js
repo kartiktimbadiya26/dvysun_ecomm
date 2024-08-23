@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const DEPLOYED='https://pear-poised-hen.cyclic.app/'
+const DEPLOYED='https://dev-bac.vercel.app/'
 const LOCALHOST='http://localhost:5454'
 
 export const API_BASE_URL = LOCALHOST;
