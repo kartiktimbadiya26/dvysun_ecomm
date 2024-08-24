@@ -18,7 +18,7 @@ const rows = [
     status: 'current',
     date: '09/27/2018',
     name: 'Sally Quinn',
-    salary: '$19586.23',
+    salary: '₹19586.23',
     email: 'eebsworth2m@sbwire.com',
     designation: 'Human Resources Assistant',
     image:"https://rukminim1.flixcart.com/image/832/832/xif0q/lehenga-choli/c/v/q/free-half-sleeve-sadhna-kedar-fab-original-imagpawdqwjqz6vt.jpeg?q=70"
@@ -26,7 +26,7 @@ const rows = [
   {
     age: 61,
     date: '09/23/2016',
-    salary: '$23896.35',
+    salary: '₹23896.35',
     status: 'professional',
     name: 'Margaret Bowers',
     email: 'kocrevy0@thetimes.co.uk',
@@ -38,7 +38,7 @@ const rows = [
     date: '10/15/2017',
     name: 'Minnie Roy',
     status: 'rejected',
-    salary: '$18991.67',
+    salary: '₹18991.67',
     email: 'ediehn6@163.com',
     designation: 'Environmental Specialist',
     image:"https://rukminim1.flixcart.com/image/832/832/xif0q/lehenga-choli/c/v/q/free-half-sleeve-sadhna-kedar-fab-original-imagpawdqwjqz6vt.jpeg?q=70"
@@ -47,7 +47,7 @@ const rows = [
     age: 30,
     date: '06/12/2018',
     status: 'resigned',
-    salary: '$19252.12',
+    salary: '₹19252.12',
     name: 'Ralph Leonard',
     email: 'dfalloona@ifeng.com',
     designation: 'Sales Representative',
@@ -57,7 +57,7 @@ const rows = [
     age: 66,
     status: 'applied',
     date: '03/24/2018',
-    salary: '$13076.28',
+    salary: '₹13076.28',
     name: 'Annie Martin',
     designation: 'Operator',
     email: 'sganderton2@tuttocitta.it',
@@ -66,7 +66,7 @@ const rows = [
   {
     age: 33,
     date: '08/25/2017',
-    salary: '$10909.52',
+    salary: '₹10909.52',
     name: 'Adeline Day',
     status: 'professional',
     email: 'hnisius4@gnu.org',
@@ -76,7 +76,7 @@ const rows = [
     age: 61,
     status: 'current',
     date: '06/01/2017',
-    salary: '$17803.80',
+    salary: '₹17803.80',
     name: 'Lora Jackson',
     designation: 'Geologist',
     email: 'ghoneywood5@narod.ru'
@@ -84,7 +84,7 @@ const rows = [
   {
     age: 22,
     date: '12/03/2017',
-    salary: '$12336.17',
+    salary: '₹12336.17',
     name: 'Rodney Sharp',
     status: 'professional',
     designation: 'Cost Accountant',

@@ -18,7 +18,7 @@ const data = [
     imgHeight: 20,
     title: 'Men',
     color: 'primary',
-    amount: '$24,895.65',
+    amount: '₹24,895.65',
     subtitle: 'Clothing, Footware',
     imgSrc: 'https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/z/3/7/xl-r-dark-grey-stoneberg-original-imaghghn2vcf5euv.jpeg?q=70'
   },
@@ -27,7 +27,7 @@ const data = [
     color: 'info',
     imgHeight: 27,
     title: 'Women',
-    amount: '$8,650.20',
+    amount: '₹8,650.20',
     subtitle: 'Clothing, Handbags, jewellery',
     imgSrc: 'https://rukminim1.flixcart.com/image/612/612/xif0q/lehenga-choli/y/p/c/free-half-sleeve-jk-6-kedar-fab-original-imaghh4unhxgyveg.jpeg?q=70'
   },
@@ -36,7 +36,7 @@ const data = [
     imgHeight: 20,
     title: 'Kids',
     color: 'secondary',
-    amount: '$1,245.80',
+    amount: '₹1,245.80',
     subtitle: 'Clothing',
     imgSrc: 'https://rukminim1.flixcart.com/image/612/612/xif0q/kids-t-shirt/i/7/e/10-11-years-bwtrnfulboy-bz55-blive-original-imagmuafh2ennezv.jpeg?q=70'
   }
@@ -57,7 +57,7 @@ const TotalEarning = () => {
       <CardContent sx={{ pt: theme => `${theme.spacing(1.5)} !important` }}>
         <Box sx={{ mb: 1.5, display: 'flex', alignItems: 'center' }}>
           <Typography variant='h4' sx={{ fontWeight: 600, fontSize: '2.125rem !important' }}>
-            $24,895
+            ₹24,895
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center', color: 'success.main' }}>
             <MenuUp sx={{ fontSize: '1.875rem', verticalAlign: 'middle' }} />
@@ -68,7 +68,7 @@ const TotalEarning = () => {
         </Box>
 
         <Typography component='p' variant='caption' sx={{ mb: 5 }}>
-          Compared to $84,325 last year
+          Compared to ₹84,325 last year
         </Typography>
 
         {data.map((item, index) => {
@@ -87,7 +87,7 @@ const TotalEarning = () => {
                   mr: 3,
                   width: 40,
                   height: 40,
-                  
+
                 }}
               >
                 <img src={item.imgSrc} alt={item.title} height={item.imgHeight} />
@@ -112,7 +112,7 @@ const TotalEarning = () => {
                   <Typography variant='body2' sx={{ mb: 2, fontWeight: 600, color: 'text.primary' }}>
                     {item.amount}
                   </Typography>
-                  
+
                 </Box>
               </Box>
             </Box>

@@ -53,7 +53,7 @@ const Dashboard = () => {
               <Grid container spacing={2}>
                 <Grid item xs={6}>
                   <CardStatsVertical
-                    stats="$25.6k"
+                    stats="₹25.6k"
                     icon={<Poll />}
                     color="success"
                     trendNumber="+42%"
@@ -63,7 +63,7 @@ const Dashboard = () => {
                 </Grid>
                 <Grid item xs={6}>
                   <CardStatsVertical
-                    stats="$78"
+                    stats="₹78"
                     title="Refunds"
                     trend="negative"
                     color="secondary"
